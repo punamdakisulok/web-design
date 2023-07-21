@@ -117,7 +117,6 @@
   position: absolute;
   width: 100%;
   padding-bottom: 20px;
-  /* box-shadow: 0 -13px 16px 0px rgba(122, 122, 122); */
   padding: 30px;
 }
 @media screen and (min-width: 445px) and (max-width: 667) {
@@ -143,7 +142,6 @@
 }
 
 .bg-clr {
-  /* background-color: #010618; */
   border-radius: 15px;
   /* box-shadow: 4px 0px 25px 0px rgb(122, 122, 122); */
 }
