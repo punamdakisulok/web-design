@@ -137,7 +137,7 @@
     letter-spacing: 10px;
     font-size: 40px;
     text-shadow: 1px 1px 2px black, 0 0 25px rgb(145, 145, 145),
-    0 0 1px rgb(255, 255, 255);
+      0 0 1px rgb(255, 255, 255);
   }
 }
 @media screen and (min-width: 667px) and (max-width: 767px) {
@@ -429,19 +429,19 @@
   .bg-line-img {
     margin-top: -645px;
   }
-  .three{
+  .three {
     margin-top: 0px;
-  } 
-  .five{
+  }
+  .five {
     margin-top: -18px;
   }
-  .six{
+  .six {
     margin-top: 40px;
   }
-  .mars-planet-img{
+  .mars-planet-img {
     margin-top: -35px;
   }
-  .bg-line-img{
+  .bg-line-img {
     margin-top: -527px;
   }
 }
@@ -461,14 +461,14 @@
 @media (max-width: 991.98px) {
   .mars-planet-img {
     width: 150px;
-  } 
+  }
 }
 @media screen and (min-width: 292px) and (max-width: 396px) {
   .image-mars-2 {
     width: 100px;
     height: 60px;
     left: 10px;
-  } 
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -735,6 +735,11 @@
 @media screen and (min-width: 200px) and (max-width: 390px) {
   .card {
     height: 370px;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 2024px) {
+  .card {
+    height: 390px;
   }
 }
 
