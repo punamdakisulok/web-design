@@ -60,13 +60,15 @@
   font-family: "jockey-one-regular", sans-serif;
 }
 .mars-text {
-  /* letter-spacing: 30px; */
   font-weight: bold;
-  /* font-size: 80px; */
   color: white;
   font-family: "krona-one-regular", sans-serif;
   text-shadow: 1px 1px 2px black, 0 0 25px rgb(145, 145, 145),
     0 0 1px rgb(255, 255, 255);
+  letter-spacing: 30px;
+  font-size: 80px;
+  font-family: "Krona One";
+  font-style: normal;
 }
 
 .line-two-container {
@@ -102,12 +104,12 @@
   border-radius: 25px;
 }
 
-.mars-text {
+/* .mars-text {
   letter-spacing: 30px;
   font-size: 80px;
   font-family: "Krona One";
   font-style: normal;
-}
+} */
 .become-text {
   font-family: "Krona One";
   font-style: normal;
@@ -134,6 +136,8 @@
   .mars-text {
     letter-spacing: 10px;
     font-size: 40px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(145, 145, 145),
+    0 0 1px rgb(255, 255, 255);
   }
 }
 @media screen and (min-width: 667px) and (max-width: 767px) {
@@ -285,6 +289,10 @@
   .way-to-mars {
     font-size: 25px;
   }
+  .bg-line-img {
+    margin-top: -745px;
+    height: 550px;
+  }
 }
 .bg-line-img {
   margin-top: -745px;
@@ -380,7 +388,7 @@
   font-size: 15px;
   font-family: "Lalezar";
   font-style: normal;
-  margin-top: 35px;
+  margin-top: 60px;
   color: white;
 }
 .three {
@@ -417,6 +425,26 @@
   height: 100px;
   width: 200px;
 }
+@media screen and (min-width: 293px) and (max-width: 396px) {
+  .bg-line-img {
+    margin-top: -645px;
+  }
+  .three{
+    margin-top: 0px;
+  } 
+  .five{
+    margin-top: -18px;
+  }
+  .six{
+    margin-top: 40px;
+  }
+  .mars-planet-img{
+    margin-top: -35px;
+  }
+  .bg-line-img{
+    margin-top: -527px;
+  }
+}
 @media screen and (min-width: 292px) and (max-width: 496px) {
   .one .two .three .four .five .six {
     font-size: 10px;
@@ -429,17 +457,18 @@
 .text-bold {
   font-size: 20px;
 }
+
 @media (max-width: 991.98px) {
   .mars-planet-img {
     width: 150px;
-  }
+  } 
 }
-@media (max-width: 575.98px) {
+@media screen and (min-width: 292px) and (max-width: 396px) {
   .image-mars-2 {
-    width: 130px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
     left: 10px;
-  }
+  } 
 }
 
 @media (max-width: 991.98px) {
@@ -466,7 +495,7 @@
   .four,
   .five,
   .six {
-    font-size: 10px;
+    font-size: 12px;
   }
   .four-4 {
     margin-top: 20px;
