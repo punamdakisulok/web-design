@@ -375,7 +375,7 @@
 }
 
 .one {
-  margin-top: -30px;
+  margin-top: -75px;
   font-size: 15px;
   font-family: "Lalezar";
   font-style: normal;
@@ -385,7 +385,7 @@
   font-size: 15px;
   font-family: "Lalezar";
   font-style: normal;
-  margin-top: 60px;
+  margin-top: 20px;
   color: white;
 }
 .three {
@@ -421,6 +421,18 @@
 .image-mars-2 {
   height: 100px;
   width: 200px;
+}
+@media screen and (min-width: 201px) and (max-width: 345px) {
+  .one {
+    margin-top: -30px;
+    font-size: 15px;
+  } 
+}
+@media screen and (min-width: 346px) and (max-width: 767px) {
+  .one {
+    margin-top: -30px;
+    font-size: 15px;
+  } 
 }
 @media screen and (min-width: 293px) and (max-width: 396px) {
   .bg-line-img {
