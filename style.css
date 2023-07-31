@@ -592,6 +592,10 @@
 }
 
 /*---------------------------------------DREAM COME TRUE (table)------------------------------ */
+.vertical-line {
+  border-left: 1px solid #aaaaaa;
+}
+
 .dream-text {
   font-family: "Lao Muang Khong";
   font-style: normal;
