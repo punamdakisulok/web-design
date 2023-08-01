@@ -3,6 +3,22 @@
   src: url("../fonts/LaoMuangKhong.ttf") format("truetype");
 }
 /* -----------------------------------------NAVBAR----------------------- */
+body {
+  background: linear-gradient(
+      180deg,
+      #000214 0%,
+      #000214 27.44%,
+      #000000 40.06%,
+      #000214 51.03%,
+      #131c6a 58.83%,
+      #000214 65.19%,
+      #000214 80.03%,
+      #1e1f26 84.54%,
+      #000214 89.68%,
+      #000214 100%
+    ),
+    linear-gradient(180deg, #000214 0%, #000214 27.44%, #000214 100%);
+}
 .navbar {
   padding: 10px;
 }
@@ -37,7 +53,7 @@
 }
 
 .nav-clr {
-  background-color: #010618;
+  /* background-color: #010618; */
   padding: 0;
 }
 
@@ -230,7 +246,7 @@
   border-radius: 15px;
 }
 .card-title {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Lao Muang Khong";
   font-style: normal;
 }
@@ -251,7 +267,7 @@
   box-shadow: 4px 0px 25px 0px rgb(122, 122, 122);
 }
 .background-clr {
-  background-image: linear-gradient(rgba(2, 1, 26, 0.52), rgba(2, 1, 23, 0.73));
+  /* background-image: linear-gradient(rgba(2, 1, 26, 0.52), rgba(2, 1, 23, 0.73)); */
   position: relative;
   border-radius: 40px;
   padding: 20px;
@@ -318,6 +334,8 @@
   height: auto;
   width: 50%;
   margin-top: -10px;
+  z-index: 1;
+  position: relative;
 }
 @media (max-width: 576px) {
   .earth-img {
@@ -336,21 +354,21 @@
   margin-left: 80px;
 }
 
-.mars-planet-img {
+/* .mars-planet-img {
   height: auto;
-  width: 40%;
+  width: 50%;
   margin-top: -130px;
-}
+} */
 @media (max-width: 576px) {
   .mars-planet-img {
     width: 60%;
   }
 }
 .mars-planet-img {
-  width: 200px;
+  width: 250px;
   position: relative;
   z-index: 1;
-  margin-top: -160px;
+  margin-top: -220px;
 }
 .text-container {
   display: flex;
@@ -394,27 +412,29 @@
   font-size: 15px;
   font-family: "Lalezar";
   font-style: normal;
-  margin-top: 20px;
+  margin-top: 40px;
   color: white;
 }
 .three {
-  margin-top: 70px;
+  margin-top: 60px;
   font-size: 15px;
   font-family: "Lalezar";
   font-style: normal;
   color: white;
 }
 .four-4 {
-  margin-top: 80px;
+  margin-top: 170px;
 }
 .four {
   font-size: 15px;
+  margin-top: -5px;
+
   font-family: "Lalezar";
   font-style: normal;
   color: white;
 }
 .five {
-  margin-top: 50px;
+  margin-top: 40px;
   font-size: 15px;
   font-family: "Lalezar";
   font-style: normal;
@@ -563,6 +583,8 @@
   /* width: 100%;
   height: 100%; */
   background-size: cover;
+  box-shadow: 0px 5px 67px -36px rgb(38, 38, 193),
+    0px 0px 34px -45px rgb(29, 37, 187);
 }
 .space-text {
   font-family: "Krona One";
@@ -621,9 +643,9 @@
   font-family: "Krona One";
   font-style: normal;
 }
-.bg-come-color {
+/* .bg-come-color {
   background: #01081f;
-}
+} */
 .text-turn {
   font-size: 25px;
   font-family: "Nunito";
@@ -692,9 +714,9 @@
 }
 
 /* ----------------------------------HOW RELIABLE WE ARE-------------------- */
-.bg-color-are {
+/* .bg-color-are {
   background: linear-gradient(#01081f, #1f1f1f, #02011a);
-}
+} */
 
 .how-text {
   font-family: "Krona One";
@@ -726,16 +748,23 @@
   justify-content: center;
   border-radius: 25px;
 }
-.card {
-  /* background: linear-gradient(#3a3a3a, #363636); */
-  background-image: linear-gradient(
+.card-design {
+  /* background: linear-gradient(180deg, #141418 0%, #1d1e23 27.44%, #242429 100%); */
+
+  /* background: linear-gradient(#808080, #808080); */
+  background: linear-gradient(#131525, #2f2f37, #111321);
+  /* background: linear-gradient(to right, #777777 9%, #777777 4.14%); */
+
+  /* background-image: linear-gradient(
     90deg,
     #313131 100.14%,
     transparent 100.14%
-  );
+  ); */
   height: 370px;
   border-radius: 30px;
-  /* opacity: 0.5; */
+  /* opacity: 0.4; */
+
+  border-radius: 38px;
 }
 
 @media (max-width: 991.98px) {
@@ -792,9 +821,9 @@
   font-size: 20px;
   letter-spacing: 2px;
 }
-.bottom-clr {
+/* .bottom-clr {
   background: #010016;
-}
+} */
 .footer-link {
   margin-bottom: -44px;
 }
