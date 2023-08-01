@@ -1,8 +1,9 @@
-@font-face {
+/* @font-face {
   font-family: "Lao Muang Khong";
   src: url("../fonts/LaoMuangKhong.ttf") format("truetype");
-}
+} */
 /* -----------------------------------------NAVBAR----------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Krona+One&display=swap');
 body {
   background: linear-gradient(
       180deg,
@@ -275,26 +276,6 @@ body {
     0px 5px 37px -20px rgba(255, 255, 255);
 }
 
-/* .background-clr::before {
-  background: rgba(88, 5, 5, 0.1);
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 10px;
-  z-index: -1;
-} */
-/* .background-clr::before {
-  top: -40px;
-  background-color: rgba(228, 215, 215, 0.1);
-  border-radius: 40px 40px 0 0;
-}
-
-.background-clr::after {
-  bottom: -30px;
-  border-radius: 0 0 40px 40px;
-} */
-
 /* -------------------------------------------------YOUR WAY TO MARS-------------------------- */
 
 .bg-color {
@@ -352,11 +333,6 @@ body {
   margin-left: 80px;
 }
 
-/* .mars-planet-img {
-  height: auto;
-  width: 50%;
-  margin-top: -130px;
-} */
 @media (max-width: 576px) {
   .mars-planet-img {
     width: 60%;
@@ -578,8 +554,6 @@ body {
       rgba(4, 8, 74, 0.73)
     ),
     url("images/3d-render-futuristic.jpg");
-  /* width: 100%;
-  height: 100%; */
   background-size: cover;
   box-shadow: 0px 5px 67px -36px rgb(38, 38, 193),
     0px 0px 34px -45px rgb(29, 37, 187);
@@ -636,6 +610,9 @@ body {
 .vertical-line {
   border-left: 1px solid #aaaaaa;
 }
+/* .table th{
+  border-top: none;
+} */
 
 .dream-text {
   font-family: "Krona One";
@@ -645,11 +622,11 @@ body {
   background: #01081f;
 } */
 .text-turn {
-  font-size: 25px;
-  font-family: "Nunito";
+  font-size: 18px;
+  font-family: "Krona One";
 }
 .text-simple {
-  font-weight: normal;
+  font-weight: 400;
   font-size: smaller;
 }
 .table-btn {
@@ -711,6 +688,7 @@ body {
   }
 }
 
+
 /* ----------------------------------HOW RELIABLE WE ARE-------------------- */
 /* .bg-color-are {
   background: linear-gradient(#01081f, #1f1f1f, #02011a);
@@ -728,9 +706,13 @@ body {
   display: block;
   margin: 0 auto;
 }
+.title-text{
+  font-family: "Krona One"; 
+}
 .p-text {
   font-size: 15px;
   color: white;
+  font-family: "Lao Muang Khong";
 }
 .button-btn {
   background-color: #636463;
@@ -749,10 +731,8 @@ body {
 .card-design {
   /* background: linear-gradient(180deg, #141418 0%, #1d1e23 27.44%, #242429 100%); */
 
-  /* background: linear-gradient(#808080, #808080); */
   background: linear-gradient(#131525, #2f2f37, #111321);
-  /* background: linear-gradient(to right, #777777 9%, #777777 4.14%); */
-
+  
   /* background-image: linear-gradient(
     90deg,
     #313131 100.14%,
@@ -760,8 +740,6 @@ body {
   ); */
   height: 370px;
   border-radius: 30px;
-  /* opacity: 0.4; */
-
   border-radius: 38px;
 }
 
@@ -818,6 +796,7 @@ body {
   text-align: left;
   font-size: 20px;
   letter-spacing: 2px;
+  font-family: 'Jockey One';
 }
 /* .bottom-clr {
   background: #010016;
@@ -825,13 +804,9 @@ body {
 .footer-link {
   margin-bottom: -44px;
 }
+.li-text{
+  font-family: "Lao Muang Khong";
+  letter-spacing: 1px;
+}
 
-/* mars_landscape 1 */
 
-/* position: absolute;
-width: 1442px;
-height: 636px;
-left: -2px;
-top: 6671px;
-
-background: url(mars_landscape.jpg); */
