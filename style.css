@@ -1,0 +1,807 @@
+/* @font-face {
+  font-family: "Lao Muang Khong";
+  src: url("../fonts/LaoMuangKhong.ttf") format("truetype");
+} */
+/* -----------------------------------------NAVBAR----------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&family=Krona+One&display=swap");
+body {
+  background: linear-gradient(
+      180deg,
+      #000214 0%,
+      #000214 27.44%,
+      #000000 40.06%,
+      #000214 51.03%,
+      #131c6a 58.83%,
+      #000214 65.19%,
+      #000214 80.03%,
+      #1e1f26 84.54%,
+      #000214 89.68%,
+      #000214 100%
+    ),
+    linear-gradient(180deg, #000214 0%, #000214 27.44%, #000214 100%);
+}
+.navbar {
+  padding: 10px;
+}
+.nav-text {
+  font-family: "Jockey One";
+}
+
+.navbar-toggler {
+  width: 45px;
+  height: 34px;
+  border: none;
+}
+
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 3px;
+  background-color: #b6b3b3;
+  margin-bottom: 5px;
+}
+
+.nav-logo {
+  height: 20%;
+  width: 10%;
+  margin-bottom: -20px;
+}
+
+.nav-item {
+  margin-right: 50px;
+  font-family: "Jockey One";
+  font-style: normal;
+}
+
+.nav-clr {
+  padding: 0;
+}
+
+.position1 {
+  position: relative;
+}
+
+@media screen and (min-width: 240px) and (max-width: 540px) {
+  .nav-logo {
+    height: 20%;
+    width: 23%;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    text-align: left;
+  }
+  .navbar-nav .nav-item {
+    display: inline-block;
+  }
+  .navbar-collapse {
+    justify-content: center;
+  }
+}
+
+/* --------------------------------------IMAGES ------------------------------------- */
+.w-100 {
+  max-width: 100%;
+}
+.planet-text {
+  letter-spacing: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  font-family: "jockey-one-regular", Arial, sans-serif;
+}
+.mars-text {
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 0px black, 0 0 38px rgb(145, 145, 145),
+    0 0 5px rgb(255, 255, 255);
+  letter-spacing: 30px;
+  font-size: 80px;
+  font-family: "Krona One", Arial, sans-serif;
+  font-style: normal;
+}
+
+.line-two-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mars-image {
+  margin-top: -30px;
+}
+
+.become-text {
+  color: rgb(172, 172, 172);
+  font-family: "krona-one-regular", sans-serif;
+}
+.become-text1 {
+  color: rgb(172, 172, 172);
+  font-family: "Lao Muang Khong";
+  font-style: normal;
+}
+.button1 {
+  background: rgba(217, 217, 217, 0.3);
+  border: none;
+  color: white;
+  padding: 11px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 13px;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 25px;
+  opacity: 0.7;
+  font-weight: bold;
+}
+
+/* .mars-text {
+  letter-spacing: 30px;
+  font-size: 80px;
+  font-family: "Krona One";
+  font-style: normal;
+} */
+.become-text {
+  font-family: "Krona One";
+  font-style: normal;
+}
+.grid-img {
+  height: 450px;
+  object-fit: cover;
+  border: none;
+  width: 100%;
+}
+@media screen and (min-width: 200px) and (max-width: 390px) {
+  .button1 {
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 13px;
+    cursor: pointer;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 390px) {
+  .mars-text {
+    letter-spacing: 10px;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(145, 145, 145),
+      0 0 1px rgb(255, 255, 255);
+  }
+}
+@media screen and (min-width: 667px) and (max-width: 767px) {
+  .mars-image {
+    margin-left: 4px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .mars-image {
+    margin-left: 90px;
+  }
+}
+@media (max-width: 991.98px) {
+  .line-two {
+    width: 38%;
+    margin: 10px auto;
+    display: block;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .line-two {
+    width: 40%;
+  }
+}
+/* --------------------------------------OUR SERVICES------------------------------------- */
+.our-color {
+  /* background: linear-gradient(#050113, rgba(21, 29, 48, 0.9)); */
+  border-radius: 25px;
+  margin-top: -80px;
+  box-shadow: -8px -12px 10px -7px rgb(122, 122, 122);
+  position: absolute;
+  width: 100%;
+  padding-bottom: 20px;
+  padding: 30px;
+}
+@media screen and (min-width: 200px) and (max-width: 390px) {
+  .service-title {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 445px) and (max-width: 667) {
+  .service-title {
+    margin-left: 65px;
+  }
+}
+@media screen and (min-width: 668px) and (max-width: 991) {
+  .service-title {
+    margin-left: 65px;
+  }
+}
+.service-title {
+  color: #757575;
+  font-family: "Krona One";
+  font-style: normal;
+  margin-left: 80px;
+}
+.text-clr {
+  color: #757575;
+  font-family: "Krona One";
+  font-style: normal;
+}
+.text-color {
+  color: #b8b7b7;
+  font-size: 17px;
+  font-family: "Lao Muang Khong";
+  font-style: normal;
+}
+
+.bg-clr {
+  border-radius: 15px;
+}
+.card-title {
+  font-size: 20px;
+  font-family: "Lao Muang Khong";
+  font-style: normal;
+}
+.button0 {
+  background-color: #636463;
+  border: none;
+  color: white;
+  padding: 12px 35px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 15px;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 25px;
+}
+.btn {
+  box-shadow: 4px 0px 25px 0px rgb(122, 122, 122);
+}
+.background-clr {
+  /* background-image: linear-gradient(rgba(2, 1, 26, 0.52), rgba(2, 1, 23, 0.73)); */
+  position: relative;
+  border-radius: 40px;
+  padding: 20px;
+  margin-top: -70px;
+  color: rgb(220, 220, 220);
+  box-shadow: 0px 2px 61px -36px rgba(255, 255, 255),
+    0px 5px 37px -20px rgba(255, 255, 255);
+}
+
+/* -------------------------------------------------YOUR WAY TO MARS-------------------------- */
+
+.bg-color {
+  background: url(images/A.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.way-to-mars {
+  color: #b8b7b7;
+  font-size: 36px;
+  font-family: "Krona One";
+  font-style: normal;
+}
+@media screen and (min-width: 200px) and (max-width: 390px) {
+  .way-to-mars {
+    font-size: 25px;
+  }
+  .bg-line-img {
+    margin-top: -745px;
+    height: 550px;
+  }
+}
+.bg-line-img {
+  margin-top: -745px;
+}
+@media (max-width: 576px) {
+  .way-to-mars {
+    font-size: 25px;
+  }
+}
+
+.earth-img {
+  height: auto;
+  width: 50%;
+  margin-top: -10px;
+  z-index: 1;
+  position: relative;
+}
+@media (max-width: 576px) {
+  .earth-img {
+    width: 85%;
+  }
+  .text-days {
+    font-size: 10px;
+  }
+}
+.text-days {
+  font-size: 18px;
+}
+.d-flex {
+  align-items: center;
+  margin-top: -50px;
+  margin-left: 80px;
+}
+
+@media (max-width: 576px) {
+  .mars-planet-img {
+    width: 60%;
+  }
+}
+.mars-planet-img {
+  width: 250px;
+  position: relative;
+  z-index: 1;
+  margin-top: -220px;
+}
+.text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.text-container .text-item {
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+.text-item img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .text-container .text-item {
+    flex: 0 0 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-container .text-item {
+    flex: 0 0 33.3333%;
+  }
+}
+
+.one {
+  margin-top: -75px;
+  font-size: 15px;
+  font-family: "Lalezar";
+  font-style: normal;
+  color: white;
+}
+.two {
+  font-size: 15px;
+  font-family: "Lalezar";
+  font-style: normal;
+  margin-top: 100px;
+  color: white;
+}
+.three {
+  margin-top: 55px;
+  font-size: 15px;
+  font-family: "Lalezar";
+  font-style: normal;
+  color: white;
+}
+.four-4 {
+  margin-top: 120px;
+}
+.four {
+  font-size: 15px;
+  margin-top: -10px;
+  font-family: "Lalezar";
+  font-style: normal;
+  color: white;
+}
+.five {
+  margin-top: 40px;
+  font-size: 15px;
+  font-family: "Lalezar";
+  font-style: normal;
+  color: white;
+}
+.six {
+  margin-top: 140px;
+  font-size: 15px;
+  font-family: "Lalezar";
+  font-style: normal;
+  color: white;
+}
+.image-mars-2 {
+  height: 100px;
+  width: 200px;
+}
+@media screen and (min-width: 201px) and (max-width: 345px) {
+  .one {
+    margin-top: -30px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 346px) and (max-width: 767px) {
+  .one {
+    margin-top: -30px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 293px) and (max-width: 396px) {
+  .bg-line-img {
+    margin-top: -645px;
+  }
+  .three {
+    margin-top: 0px;
+  }
+  .five {
+    margin-top: -18px;
+  }
+  .six {
+    margin-top: 40px;
+  }
+  .mars-planet-img {
+    margin-top: -35px;
+  }
+  .bg-line-img {
+    margin-top: -527px;
+  }
+}
+@media screen and (min-width: 292px) and (max-width: 496px) {
+  .one .two .three .four .five .six {
+    font-size: 10px;
+  }
+  .image-mars-2 {
+    height: 80px;
+    width: 150px;
+  }
+}
+.text-bold {
+  font-size: 20px;
+}
+
+@media (max-width: 991.98px) {
+  .mars-planet-img {
+    width: 180px;
+  }
+}
+@media screen and (min-width: 292px) and (max-width: 396px) {
+  .image-mars-2 {
+    width: 100px;
+    height: 60px;
+    left: 10px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .line-four {
+    width: 70%;
+    margin: 10px auto;
+    display: block;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .line-four {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .earth-img {
+    width: 150px;
+  }
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six {
+    font-size: 12px;
+  }
+  .four-4 {
+    margin-top: 20px;
+  }
+  .text-item {
+    display: block;
+  }
+  .image-mars-2 {
+    height: 40px;
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 201px) and (max-width: 345px) {
+  .earth-img {
+    width: 150px;
+  }
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six {
+    font-size: 12px;
+  }
+  .four-4 {
+    margin-top: 20px;
+  }
+  .text-item {
+    display: block;
+  }
+  .image-mars-2 {
+    height: 60px;
+    width: 90px;
+    margin-left: 10px;
+  }
+}
+
+/* -------------------------------DISCOVER THE THRILL OF SPACE TRAVEL-------------------------- */
+.bg-image {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(4, 12, 49, 0.52),
+      rgba(4, 8, 74, 0.73)
+    ),
+    url("images/3d-render-futuristic.jpg");
+  background-size: cover;
+  box-shadow: 0px 5px 67px -36px rgb(38, 38, 193),
+    0px 0px 34px -45px rgb(29, 37, 187);
+}
+.space-text {
+  font-family: "Krona One";
+  font-style: normal;
+}
+.card-image {
+  object-fit: cover;
+  width: 100%;
+}
+.card-img-top {
+  border: none;
+}
+.some-text {
+  font-size: 20px;
+  font-family: "Lao Muang Khong";
+  font-style: normal;
+}
+.button-btn {
+  background-color: #636463;
+  border: none;
+  color: white;
+  padding: 15px 54px;
+  text-align: center;
+  font-size: 20px;
+  margin: 15px;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 40px;
+}
+@media (max-width: 576px) {
+  .space-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .line-img {
+    width: 70%;
+    margin: 10px auto;
+    display: block;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .line-img {
+    width: 50%;
+  }
+}
+
+/*---------------------------------------DREAM COME TRUE (table)------------------------------ */
+
+.vertical-line {
+  border-left: 1px solid #aaaaaa;
+}
+
+.dream-text {
+  font-family: "Krona One";
+  font-style: normal;
+}
+
+.text-turn {
+  font-size: 18px;
+  font-family: "Krona One";
+}
+.text-simple {
+  font-weight: 400;
+  font-size: smaller;
+}
+.table-btn {
+  background: rgba(217, 217, 217, 0.05);
+  border: none;
+  color: white;
+  padding: 10px;
+  font-family: "Krona One";
+  /* font-size: 25px; */
+  /* margin: 5px; */
+}
+
+.text-white {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .bold-text {
+    font-size: 16px;
+    text-align: center;
+  }
+  .text-white {
+    font-size: 14px;
+    text-align: left;
+  }
+}
+
+/* CSS for mobile view */
+@media (max-width: 767px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+  .table {
+    width: 100%;
+  }
+  .table-btn {
+    width: 100%;
+    font-size: 12px;
+    padding: 1px 0px;
+    color: #fff;
+    border: none;
+  }
+  .table-btn:focus {
+    outline: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .line-7 {
+    width: 70%;
+    margin: 10px auto;
+    display: block;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .line-7 {
+    width: 50%;
+  }
+}
+/* .table-button {
+  width: 112.731px;
+  height: 64.515px;
+  flex-shrink: 0;
+} */
+
+/* ----------------------------------HOW RELIABLE WE ARE-------------------- */
+/* .bg-color-are {
+  background: linear-gradient(#01081f, #1f1f1f, #02011a);
+} */
+
+.how-text {
+  font-family: "Krona One";
+  font-style: normal;
+  color: white;
+}
+.img-icon {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+.title-text {
+  font-family: "Krona One";
+}
+.p-text {
+  font-size: 15px;
+  color: white;
+  font-family: "Lao Muang Khong";
+}
+.button-btn {
+  background-color: #636463;
+  border: none;
+  color: white;
+  padding: 15px 54px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 13px;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 25px;
+}
+.card-design {
+  /* background: linear-gradient(180deg, #141418 0%, #1d1e23 27.44%, #242429 100%); */
+
+  background: linear-gradient(#131525, #2f2f37, #111321);
+
+  /* background-image: linear-gradient(
+    90deg,
+    #313131 100.14%,
+    transparent 100.14%
+  ); */
+  height: 370px;
+  border-radius: 30px;
+  border-radius: 38px;
+}
+
+@media (max-width: 991.98px) {
+  .line-6 {
+    width: 70%;
+    margin: 10px auto;
+    display: block;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .line-6 {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 390px) {
+  .button-btn {
+    padding: 12px 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 13px;
+    cursor: pointer;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 390px) {
+  .card {
+    height: 370px;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 2024px) {
+  .card {
+    height: 390px;
+  }
+}
+
+/* -----------------------------------AXIOM SPACE ------------------------------------------ */
+.footer-img {
+  background-image: linear-gradient(
+      rgba(12, 12, 12, 0.52),
+      rgba(16, 16, 16, 0.73)
+    ),
+    url("images/mars_landscape-1.jpg");
+  width: 100%;
+  max-height: 100%;
+  background-size: cover;
+}
+.text-li {
+  text-align: left;
+}
+.text-title {
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: "Jockey One";
+}
+
+.footer-link {
+  margin-bottom: -44px;
+}
+.li-text {
+  font-family: "Lao Muang Khong";
+  letter-spacing: 1px;
+}
