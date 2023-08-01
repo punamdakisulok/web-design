@@ -3,7 +3,7 @@
   src: url("../fonts/LaoMuangKhong.ttf") format("truetype");
 } */
 /* -----------------------------------------NAVBAR----------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Krona+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&family=Krona+One&display=swap");
 body {
   background: linear-gradient(
       180deg,
@@ -227,7 +227,7 @@ body {
   color: #757575;
   font-family: "Krona One";
   font-style: normal;
-  /* margin-left: 30px; */
+  margin-left: 80px;
 }
 .text-clr {
   color: #757575;
@@ -386,23 +386,22 @@ body {
   font-size: 15px;
   font-family: "Lalezar";
   font-style: normal;
-  margin-top: 40px;
+  margin-top: 100px;
   color: white;
 }
 .three {
-  margin-top: 60px;
+  margin-top: 55px;
   font-size: 15px;
   font-family: "Lalezar";
   font-style: normal;
   color: white;
 }
 .four-4 {
-  margin-top: 170px;
+  margin-top: 120px;
 }
 .four {
   font-size: 15px;
-  margin-top: -5px;
-
+  margin-top: -10px;
   font-family: "Lalezar";
   font-style: normal;
   color: white;
@@ -607,20 +606,16 @@ body {
 }
 
 /*---------------------------------------DREAM COME TRUE (table)------------------------------ */
+
 .vertical-line {
   border-left: 1px solid #aaaaaa;
 }
-/* .table th{
-  border-top: none;
-} */
 
 .dream-text {
   font-family: "Krona One";
   font-style: normal;
 }
-/* .bg-come-color {
-  background: #01081f;
-} */
+
 .text-turn {
   font-size: 18px;
   font-family: "Krona One";
@@ -687,7 +682,11 @@ body {
     width: 50%;
   }
 }
-
+/* .table-button {
+  width: 112.731px;
+  height: 64.515px;
+  flex-shrink: 0;
+} */
 
 /* ----------------------------------HOW RELIABLE WE ARE-------------------- */
 /* .bg-color-are {
@@ -706,8 +705,8 @@ body {
   display: block;
   margin: 0 auto;
 }
-.title-text{
-  font-family: "Krona One"; 
+.title-text {
+  font-family: "Krona One";
 }
 .p-text {
   font-size: 15px;
@@ -732,7 +731,7 @@ body {
   /* background: linear-gradient(180deg, #141418 0%, #1d1e23 27.44%, #242429 100%); */
 
   background: linear-gradient(#131525, #2f2f37, #111321);
-  
+
   /* background-image: linear-gradient(
     90deg,
     #313131 100.14%,
@@ -796,17 +795,13 @@ body {
   text-align: left;
   font-size: 20px;
   letter-spacing: 2px;
-  font-family: 'Jockey One';
+  font-family: "Jockey One";
 }
-/* .bottom-clr {
-  background: #010016;
-} */
+
 .footer-link {
   margin-bottom: -44px;
 }
-.li-text{
+.li-text {
   font-family: "Lao Muang Khong";
   letter-spacing: 1px;
 }
-
-
